@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 5: expected 'label_name' not found.
-    jump scene 1
-        ^
+File "game/script.rpy", line 110: expected 'label_name_declare' not found.
+    label
+         ^
 
-Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun May 14 07:07:17 2023
+Ren'Py Version: Ren'Py 8.1.0.23051307
+Wed May 31 18:13:24 2023
