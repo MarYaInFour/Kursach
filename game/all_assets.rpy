@@ -8,10 +8,11 @@ init:
 ##Персонажи##
 
         #--Основные--#
-    define question = Character('???', color="#FFFFFF")
+    define question = Character('???', color="#9b9569")
     define narrator = Character(what_italic=True)
-    define maks = Character('Макс', color="#FFFFFF")
-    define ira = Character('Ира', color="#FFFFFF")
+    define maks = Character('Макс', color="#EB6969")
+    define ira = Character('Ира', color="#EBE469")
+    define kolya = Character('Коля', color="#3DAE69", image = "kolya")
         #--Переменные--#
     define help.ira = False #День3-День4
     define scam.boris= False #День6
@@ -28,38 +29,37 @@ init:
         #--Пример спрайт с эмоцией--#
     #image pan happy = "images/sprites/pan/p_happy.png"
     #image pan sad = "images/sprites/pan/p_sad.png"
-    image kolya.normal = 
 ##Фоны##
     #image map = "images/bg/map.png"
 
 ##Анимация перехода##
 
     #--Двое--#
-    transform jump_1_2:
-        xcenter 0.30 ycenter 0.60
-        linear 0.15 ycenter 0.58
-        linear 0.1 ycenter 0.60
+    transform jump1_2:
+        xcenter 0.30 ycenter 0.71
+        linear 0.15 ycenter 0.69
+        linear 0.1 ycenter 0.71
 
-    transform jump_2_2:
-        xcenter 0.70 ycenter 0.60
-        linear 0.15 ycenter 0.58
-        linear 0.1 ycenter 0.60
+    transform jump2_2:
+        xcenter 0.70 ycenter 0.71
+        linear 0.15 ycenter 0.69
+        linear 0.1 ycenter 0.71
 
     #--Трое--#
-    transform jump_1_3:
-        xcenter 0.20 ycenter 0.60
-        linear 0.15 ycenter 0.58
-        linear 0.1 ycenter 0.60
+    transform jump1_3:
+        xcenter 0.20 ycenter 0.71
+        linear 0.15 ycenter 0.69
+        linear 0.1 ycenter 0.71
 
-    transform jump_2_3:
-        xcenter 0.5 ycenter 0.60
-        linear 0.15 ycenter 0.58
-        linear 0.1 ycenter 0.60
+    transform jump2_3:
+        xcenter 0.5 ycenter 0.71
+        linear 0.15 ycenter 0.69
+        linear 0.1 ycenter 0.71
 
-    transform jump_3_3:
-        xcenter 0.80 ycenter 0.60
-        linear 0.15 ycenter 0.58
-        linear 0.1 ycenter 0.60
+    transform jump3_3:
+        xcenter 0.80 ycenter 0.71
+        linear 0.15 ycenter 0.69
+        linear 0.1 ycenter 0.71
 
 #Переменные
     #$ persistent.start = False
