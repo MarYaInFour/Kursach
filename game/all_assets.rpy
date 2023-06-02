@@ -16,15 +16,19 @@ init:
     define help.ira = False #День3-День4
     define scam.boris= False #День6
     define walk.ira = False #День8
+    define bolk.ira = False #День10-День11
+    define cabluk.ira = False #День9-День10
+    define ratirl.ira = False #День10
+    define scam.redhead = False #День11
+    define balls.ira = 0 #Да в принцпипе все ебанные блок схемы
+    define balls.tanya = 0 #Да в принцпипе все ебанные блок схемы
+    define connect.bench = False #День12
+    define nora.ira = False #День11-День12
 ##Спрайты##
-
-        #--Пример сайд имедж--#
-    #image side shiken neutral = "images/side_images/shiken_neutral.png"
-
         #--Пример спрайт с эмоцией--#
     #image pan happy = "images/sprites/pan/p_happy.png"
     #image pan sad = "images/sprites/pan/p_sad.png"
-
+    image kolya.normal = 
 ##Фоны##
     #image map = "images/bg/map.png"
 
