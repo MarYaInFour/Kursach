@@ -12,3 +12,5 @@ game/saves/auto-9-LT1.save
 game/saves/auto-10-LT1.save
 game/saves/persistent
 save/
+error.txt
+traceback.txt
