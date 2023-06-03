@@ -16,7 +16,7 @@ init:
     define boris = Character('Бóрис', color="#ce12be")
     define flame = Character('Пламя', color="#fd0000")
     define tanya = Character('Незабудка', color="#69e7eb")
-        #--Переменные--#
+##Переменные##
     define help.ira = False #День3-День4
     define scam.boris= False #День6
     define walk.ira = False #День8
@@ -28,12 +28,6 @@ init:
     define balls.tanya = 0 #Да в принцпипе все ебанные блок схемы
     define connect.bench = False #День12
     define nora.ira = False #День11-День12
-##Спрайты##
-        #--Пример спрайт с эмоцией--#
-    #image pan happy = "images/sprites/pan/p_happy.png"
-    #image pan sad = "images/sprites/pan/p_sad.png"
-##Фоны##
-    #image map = "images/bg/map.png"
 
 ##Анимация перехода##
 
@@ -63,10 +57,6 @@ init:
         xcenter 0.80 ycenter 0.71
         linear 0.15 ycenter 0.69
         linear 0.1 ycenter 0.71
-
-#Переменные
-    #$ persistent.start = False
-
 ###################################################################################
 init python:
     def percent():
