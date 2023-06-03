@@ -1,22 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 111, in script
-    jump day4_2
-ScriptError: could not find label 'day4_2'.
+  File "game/script.rpy", line 31, in script
+    scene bg room with Fade(0.1, 0.3, 0.5, color="yellow")
+ValueError: invalid literal for int() with base 16: 'ye'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 111, in script
-    jump day4_2
-  File "C:\khp\renpy-8.1.0-sdk\renpy\ast.py", line 1992, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\khp\renpy-8.1.0-sdk\renpy\script.py", line 1013, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'day4_2'.
+  File "game/script.rpy", line 31, in script
+    scene bg room with Fade(0.1, 0.3, 0.5, color="yellow")
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\ast.py", line 1678, in execute
+    renpy.exports.with_statement(trans, paired=paired)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\exports.py", line 1757, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\core.py", line 2895, in do_with
+    return self.interact(trans_pause=True,
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\core.py", line 3499, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\core.py", line 3893, in interact_core
+    trans = instantiate_transition(None, old_root, layers_root)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\core.py", line 3839, in instantiate_transition
+    trans = self.ongoing_transition[layer](
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\transition.py", line 235, in Fade
+    widget = renpy.display.image.Solid(color)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\imagelike.py", line 51, in __init__
+    self.color = renpy.easy.color(color)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\color.py", line 147, in __new__
+    r = int(c[0]+c[1], 16)
+ValueError: invalid literal for int() with base 16: 'ye'
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.0.23051307
 kursach 1.0
-Sat Jun  3 11:31:16 2023
+Sun Jun  4 01:27:54 2023

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 11: expected statement.
-    №
-     ^
+File "game/script.rpy", line 9: end of line expected.
+    scene bg street with dissolve 0.5
+                                  ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Fri Jun  2 08:32:58 2023
+Sat Jun  3 22:55:21 2023
