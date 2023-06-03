@@ -106,9 +106,9 @@ label day3:
     label event3_3: #Событие
         "Сбор на базе и подготовка первых ступеней плана операции"
         if help.ira:
-            jump day4_1
+            jump day4
         else:
-            jump day4_2
+            jump day4_1
 #ДЕНЬ4 ПО ПУТИ ИРЫ              
 label day4:
     label event4_1: #Событие +1Ире
@@ -390,7 +390,7 @@ label day12:
             menu:
                 "Пролезть ли через потойной путь Иры?" 
                 "Да":
-                    jump event12_8_3
+                    jump event12_9_3
                 "Нет":
                     jump event12_8_2
         else:

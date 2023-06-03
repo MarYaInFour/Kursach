@@ -1,28 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/all_assets.rpy", line 26, in script
-    define nora.ira = Fa
-  File "game/all_assets.rpy", line 26, in <module>
-    define nora.ira = Fa
-NameError: name 'Fa' is not defined
+  File "game/script.rpy", line 111, in script
+    jump day4_2
+ScriptError: could not find label 'day4_2'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/all_assets.rpy", line 26, in script
-    define nora.ira = Fa
-  File "C:\khp\renpy-8.1.0-sdk\renpy\ast.py", line 2508, in execute
-    self.set()
-  File "C:\khp\renpy-8.1.0-sdk\renpy\ast.py", line 2522, in set
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "C:\khp\renpy-8.1.0-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/all_assets.rpy", line 26, in <module>
-    define nora.ira = Fa
-NameError: name 'Fa' is not defined
+  File "game/script.rpy", line 111, in script
+    jump day4_2
+  File "C:\khp\renpy-8.1.0-sdk\renpy\ast.py", line 1992, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\khp\renpy-8.1.0-sdk\renpy\script.py", line 1013, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'day4_2'.
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.0.23051307
 kursach 1.0
-Fri Jun  2 03:24:45 2023
+Sat Jun  3 11:31:16 2023
