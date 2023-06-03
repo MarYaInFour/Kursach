@@ -13,6 +13,9 @@ init:
     define maks = Character('Макс', color="#EB6969")
     define ira = Character('Ира', color="#EBE469")
     define kolya = Character('Коля', color="#3DAE69", image = "kolya")
+    define boris = Character('Бóрис', color="#ce12be")
+    define flame = Character('Пламя', color="#fd0000")
+    define tanya = Character('Незабудка', color="#69e7eb")
         #--Переменные--#
     define help.ira = False #День3-День4
     define scam.boris= False #День6
