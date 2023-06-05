@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 9: end of line expected.
-    scene bg street with dissolve 0.5
-                                  ^
+File "game/script.rpy", line 435: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    label event4_3: 
+    ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sat Jun  3 22:55:21 2023
+Mon Jun  5 15:57:03 2023
