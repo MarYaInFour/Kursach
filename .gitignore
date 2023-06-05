@@ -15,3 +15,8 @@ save/
 error.txt
 traceback.txt
 game/cache/bytecode-39.rpyb
+game/cache/shaders.txt
+game/saves/navigation.json
+game/saves/_reload-2-LT1.save
+game/cache/screens.rpyb
+game/cache/bytecode-39.rpyb
