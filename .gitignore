@@ -14,3 +14,4 @@ game/saves/persistent
 save/
 error.txt
 traceback.txt
+game/cache/bytecode-39.rpyb
