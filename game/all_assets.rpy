@@ -8,14 +8,14 @@ init:
 ##Персонажи##
 
         #--Основные--#
-    define question = Character('???', color="#9b9569")
+    define question = Character('???', who_bold=True, color="#9b9569")
     define narrator = Character(what_italic=True)
-    define maks = Character('Макс', color="#EB6969")
-    define ira = Character('Ира', color="#EBE469")
-    define kolya = Character('Коля', color="#3DAE69", image = "kolya")
-    define boris = Character('Бóрис', color="#ce12be")
-    define flame = Character('Пламя', color="#fd0000")
-    define tanya = Character('Незабудка', color="#69e7eb")
+    define maks = Character('Макс', who_bold=True, color="#aa69eb")
+    define ira = Character('Ира', who_bold=True, color="#EBE469")
+    define kolya = Character('Коля', who_bold=True, color="#3DAE69", image = "kolya")
+    define boris = Character('Бóрис', who_bold=True, color="#b353ad")
+    define flame = Character('Пламя', who_bold=True, color="#ea5d5d")
+    define tanya = Character('Незабудка', who_bold=True, color="#69e7eb", image = "tanya")
 ##Переменные##
     define help.ira = False #День3-День4
     define scam.boris= False #День6
@@ -33,30 +33,30 @@ init:
 
     #--Двое--#
     transform jump1_2:
-        xcenter 0.30 ycenter 0.71
-        linear 0.15 ycenter 0.69
-        linear 0.1 ycenter 0.71
+        xcenter 0.30 ycenter 0.77
+        linear 0.15 ycenter 0.75
+        linear 0.1 ycenter 0.77
 
     transform jump2_2:
-        xcenter 0.70 ycenter 0.71
-        linear 0.15 ycenter 0.69
-        linear 0.1 ycenter 0.71
+        xcenter 0.70 ycenter 0.77
+        linear 0.15 ycenter 0.75
+        linear 0.1 ycenter 0.77
 
     #--Трое--#
     transform jump1_3:
-        xcenter 0.20 ycenter 0.71
-        linear 0.15 ycenter 0.69
-        linear 0.1 ycenter 0.71
+        xcenter 0.20 ycenter 0.77
+        linear 0.15 ycenter 0.75
+        linear 0.1 ycenter 0.77
 
     transform jump2_3:
-        xcenter 0.5 ycenter 0.71
-        linear 0.15 ycenter 0.69
-        linear 0.1 ycenter 0.71
+        xcenter 0.5 ycenter 0.77
+        linear 0.15 ycenter 0.75
+        linear 0.1 ycenter 0.77
 
     transform jump3_3:
-        xcenter 0.80 ycenter 0.71
-        linear 0.15 ycenter 0.69
-        linear 0.1 ycenter 0.71
+        xcenter 0.80 ycenter 0.77
+        linear 0.15 ycenter 0.75
+        linear 0.1 ycenter 0.77
 ###################################################################################
 init python:
     def percent():

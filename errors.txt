@@ -2,9 +2,29 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 435: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    label event4_3: 
-    ^
+File "game/all_assets.rpy", line 11: invalid syntax
+    Character('???', who_bold=True color="#9b9569")
+                                    ^
+
+File "game/all_assets.rpy", line 13: invalid syntax
+    Character('Макс', who_bold=True color="#EB6969")
+                                     ^
+
+File "game/all_assets.rpy", line 14: invalid syntax
+    Character('Ира', who_bold=True color="#EBE469")
+                                    ^
+
+File "game/all_assets.rpy", line 16: invalid syntax
+    Character('Бóрис', who_bold=True color="#ce12be")
+                                      ^
+
+File "game/all_assets.rpy", line 17: invalid syntax
+    Character('Пламя', who_bold=True color="#fd0000")
+                                      ^
+
+File "game/all_assets.rpy", line 18: invalid syntax
+    Character('Незабудка', who_bold=True color="#69e7eb", image = "tanya")
+                                          ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Mon Jun  5 15:57:03 2023
+Wed Jun  7 06:36:50 2023
