@@ -24,8 +24,8 @@ init:
     define cabluk.ira = False #День9-День10
     define ratirl.ira = False #День10
     define scam.redhead = False #День11
-    define balls.ira = 0 #Да в принцпипе все ебанные блок схемы
-    define balls.tanya = 0 #Да в принцпипе все ебанные блок схемы
+    define balls.ira = 0 #Да в принцпипе все блок схемы
+    define balls.tanya = 0 #Да в принцпипе все блок схемы
     define connect.bench = False #День12
     define nora.ira = False #День11-День12
 
