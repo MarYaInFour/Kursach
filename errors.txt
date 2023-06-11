@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 677: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    "Благодаря этой маскировке я добрался домой незаметным, хотел бы я сказать, если бы прохожие не обращали внимание на замарашку. Но это не важно."
-    ^
+File "game/script.rpy", line 5: menu statement expects a non-empty block.
+    menu:
+        ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sun Jun 11 02:32:03 2023
+Sun Jun 11 04:44:14 2023

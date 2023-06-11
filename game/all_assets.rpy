@@ -8,7 +8,7 @@ init:
 ##Персонажи##
 
         #--Основные--#
-    define question = Character('???', who_bold=True, color="#9b9569")
+    define question = Character('???', who_bold=True, color="#69889b")
     define narrator = Character(what_italic=True)
     define maks = Character('Макс', who_bold=True, color="#aa69eb")
     define ira = Character('Ира', who_bold=True, color="#EBE469")
