@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 5: menu statement expects a non-empty block.
-    menu:
-        ^
+File "game/script.rpy", line 335: expected end of line
+    stop ch1 with fadeout 1
+             ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sun Jun 11 04:44:14 2023
+Mon Jun 12 10:46:08 2023
