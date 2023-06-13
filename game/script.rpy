@@ -396,7 +396,7 @@ label day3:
                 show ira sad at jump2_3
                 ira "Жаль, надеюсь в следующий раз получиться."
                 "Она встала со скамейки. Поправив свою одежду, она накинула сумку."
-                show ira norm at jump2_3
+                show ira normal at jump2_3
                 ira "Ладно тогда, увидимся."
                 maks "Пока."
                 hide ira
