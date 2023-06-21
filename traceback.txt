@@ -1,22 +1,72 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 415, in script
-    "1231$$$$$$$$!@#!@$!@%!@@@@@@@@@@@@@@@@@@%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!%####################################!!!!!!!!!!!!!@####################"
-ValueError: unsupported format character '!' (0x21) at index 21
+While processing text tag {nw } in 'Макс, не хоче..{w=0.5}{nw }'.:
+  File "game/script.rpy", line 277, in script
+    tanya "Макс, не хоче..{w=0.5}{nw  }"
+Exception: Unknown text tag 'nw '
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 415, in script
-    "1231$$$$$$$$!@#!@$!@%!@@@@@@@@@@@@@@@@@@%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!%####################################!!!!!!!!!!!!!@####################"
-  File "C:\khp\renpy-8.1.0-sdk\renpy\ast.py", line 930, in execute
+  File "game/script.rpy", line 277, in script
+    tanya "Макс, не хоче..{w=0.5}{nw  }"
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\ast.py", line 930, in execute
     renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\khp\renpy-8.1.0-sdk\renpy\exports.py", line 1462, in say
-    what = what % tag_quoting_dict
-ValueError: unsupported format character '!' (0x21) at index 21
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\exports.py", line 1473, in say
+    who(what, *args, **kwargs)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\character.py", line 1349, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\character.py", line 1000, in do_display
+    display_say(who,
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\character.py", line 690, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\core.py", line 3499, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\core.py", line 4089, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\core.py", line 2699, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\screen.py", line 731, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\layout.py", line 1336, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\display\layout.py", line 886, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\text\text.py", line 2171, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\text\text.py", line 629, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\RenPy\RenPy versions\renpy-8.1.0-sdk\renpy\text\text.py", line 1289, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag 'nw '
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.0.23051307
-kursach 1.0
-Mon Jun  5 15:55:28 2023
+Горизонт жизни 0.5.6
+Wed Jun 21 11:31:41 2023

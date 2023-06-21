@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 335: expected end of line
-    stop ch1 with fadeout 1
-             ^
+File "game/script.rpy", line 317: Indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Mon Jun 12 10:46:08 2023
+Wed Jun 21 11:38:29 2023
