@@ -298,7 +298,6 @@ screen navigation():
         if main_menu:
 
             textbutton _("Начать") action Start()
-            textbutton _("Экстра") action ShowMenu("image_gallery")
 
         else:
 
